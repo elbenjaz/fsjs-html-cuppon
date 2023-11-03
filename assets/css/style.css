@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F8F9FA;
+}
+
+.bg-cuppon {
+    background-color: #28A745;
+    color: var(--bs-white);
+}
+
+.navbar-brand i, .navbar-brand p {
+    color: pink;
+}
+.navbar-brand img, footer img {
+    width: 150px;
+}
+
+.card {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.card-title {
+    color: #212529;
+    font-weight: 300;
+}
+.card-text {
+    color: #707070;
+    font-weight: 300;
+}
+.card-text span.autor {
+    font-size: 1.2rem;
+}
+.card-text span.text-secondary {
+    text-decoration: line-through;
+}
+.card-text span.text-success {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.form-control {
+    font-weight: 300;
+}
+
+footer p {
+    color: #707070;
+    font-weight: 300;
+    margin-top: 10px;
+}
